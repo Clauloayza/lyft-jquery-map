@@ -1,0 +1,48 @@
+
+.glyphicon{
+	color: #464646;
+}
+.next{
+    width: 100%;
+    padding: 2%;
+    color: #fff;
+    background: #ff00bf;
+    margin-top: 10%;
+	font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+	padding-right: 20%;
+}
+.glyphicon {
+    top:25px;
+}
+.peru {
+    display: inline-block;
+    padding-right: 10px;
+}
+.input-group-btn{
+    width: 50px;
+}
+.btn .caret {
+    margin-left: -8px;
+    
+}
+
+.input-group {
+    width: 100%;
+}
+.code {
+    position: absolute;
+    z-index:40;
+    top:22%;
+    transform: translateX(15px);
+}
+#number {
+    padding-left: 45px;
+}

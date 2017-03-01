@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/email.css">
+</head>
+<body>
+  <div class="lyft-linear">
+   <header>
+		<div class="container">
+			<div class="row">
+				<a href="country.html">
+				   <div class="col-xs-1 col-sm-1 col-md-1">
+					<span class="glyphicon glyphicon-chevron-left left
+" aria-hidden="true"></span>
+               </div> 
+				</a>
+                <div class="col-xs-9 col-sm-11 col-md-11">
+                <center>
+                        <h2>Sign in</h2>
+                        <h5>Join now for free ride credit</h5>
+                        <hr>
+                </center>
+                </div>
+		    </div>
+        </div>
+   </header>
+   
+   <section class="container">
+      <div class="row">
+         
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle"
+                            data-toggle="dropdown">
+                     <span class="glyphicon glyphicon-user"></span>
+                    </button>
+
+                  </div>
+
+                  <input type="text" class="form-control"  value="" placeholder="Firts name                                                        Last name" id="name" onkeyup="validateName(event)">
+                </div>
+                <div id="msjName"></div>
+              </div>
+          </div>
+          <div class="row">
+         
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle"
+                            data-toggle="dropdown">
+                      <span class="glyphicon glyphicon-envelope"></span>
+                     
+                    </button>
+
+                  </div>
+
+                  <input type="text" class="form-control" value="" placeholder="Email" id="email" onkeyup="validateEmail(event)">
+                </div>
+                <div id="mjsEmail"></div>
+              </div>
+          </div>
+       
+   </section>
+   <div class="container text-center terminos">
+   	<input type="checkbox" id="check" onchange="onCheck(event)" class="check">
+   	<span>I agree to Lyft´s <a href="" class="check">Terms of Service</a></span>
+   </div>
+   <div id="mensjeCheck"></div>
+   <section class="container">
+      <center>
+          <a href="mapa.html" id="next" ><div class="next">Next</div></a>
+      </center>
+       
+   </section>
+  </div>
+  
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/email.js"></script>
+
+</html>

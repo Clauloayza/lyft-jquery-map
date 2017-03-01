@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/country.css">
+</head>
+<body onload="init()">
+  <div class="lyft-linear">
+   <header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1 col-sm-1 col-md-1">
+					<a href="index.html"><span class="glyphicon glyphicon-chevron-left
+" aria-hidden="true"></span></a>
+               </div>
+                <div class="col-xs-9 col-sm-11 col-md-11">
+                <center>
+                        <h2>Sign in</h2>
+                        <h5>Join now for free ride credit</h5>
+                        <hr>
+                </center>
+                </div>
+		    </div>
+        </div>
+   </header>
+   
+   <section class="container">
+      <div class="row">
+         
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <a href="paises.html"> <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="btn-flag">
+                     <img class="img-responsive peru" src="imagenes/peru.png" alt="" id="peruFlag">
+                     <span class="caret"></span>
+                    </button></a>
+
+                  </div>
+					<span class="code"><strong>+<strong id="codeCountry">51</strong></strong></span>
+                   <input id="number" type="text" onkeydown="validateNumber(event)" class="form-control" aria-label="..." placeholder="1122334455">
+                </div>
+                <div id="mensajeNumber"></div>
+              </div>
+          </div>
+        
+             <center>
+                 <h5>We´ll send a text to verity your phone</h5>
+             </center>
+  
+   </section>
+   <section class="container">
+      <center>
+          <a href="email.html" id="next"><div class="next">Next</div></a>
+      </center>
+       
+   </section>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/country.js"></script>
+</html>

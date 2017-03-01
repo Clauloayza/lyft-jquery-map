@@ -1,0 +1,34 @@
+.input-group{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+   
+}
+.check{
+    color: #2aace3;
+    position: relative;
+    
+}
+.left{
+   margin-top: 20px;
+   font-size: 35px;
+	color: #777474;
+}
+.terminos{
+    margin-top: 7%;
+}
+.next{
+    width: 100%;
+    padding: 2%;
+    color: #fff;
+    background: #ff00bf;
+    margin-top: 10%;
+	font-size: 18px;
+}
+.next a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.line{
+	margin-top: 20px;
+}

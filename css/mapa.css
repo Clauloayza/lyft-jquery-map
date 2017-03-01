@@ -1,0 +1,31 @@
+.next{
+	background:#371b83;
+	border: none;
+	padding: 13px;
+	position: relative;
+	width: 100%;
+	transform: translateY(-95px);
+}
+#btn-select{
+	padding: 0;
+	
+}
+#select{
+	position: relative;
+	transform: translateY(-100px);
+}
+.pull-right{
+	margin-right: -15px;
+}
+.selector{
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.line{
+	margin-top: 10px;
+}
+.plus{
+	margin-right: 13px;
+	padding-left: 10px;
+	margin-top: 7px;
+}

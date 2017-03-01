@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/mapa.css">
+</head>
+<body onload="initMap()">
+
+	<div class="container">
+		<div style="height:600px" id="map">
+	 	</div>
+		<div class="dropup" id="select">
+			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="width:100%" id="btn-select"><span class="pull-left glyphicon glyphicon-menu-down selector"></span>
+				<h6>2300 Harrison St <small><br>Pickup location</small></h6>
+			</button>
+			
+			<ul class="dropdown-menu">
+			  <li>
+			  	<a href="#">
+			  	 	<span class="pull-right text-center"><h6>3 <br>min</h6></span>
+			  	 	<img src="imagenes/lyft.png" width="8%" class="pull-left line" alt="">
+			  	 	<h6>Line<small><br>Shared 2 riders max</small></h6>
+			  	</a>
+			  </li>
+			  <li>
+			  	<a href="#">
+			  		<span class="pull-right text-center"><h6>3 <br>min</h6></span>
+			  		<img src="imagenes/line.png" width="8%" class="pull-left line" alt="">
+			  		<h6>Lyft<small><br>4 Seats</small></h6>
+			  	</a>
+			  </li>
+			  <li>
+			  	<a href="#">
+		  			<span class="pull-right text-center">
+		  			<h6>3 <br>min</h6></span>
+		  			<img src="imagenes/plus.png" width="6%" class="pull-left plus" alt="">
+			  		<h6>Plus<small><br>6 Seats</small></h6>
+			  	</a>
+			  </li>
+			  <li>
+			  	<a href="#">
+			  		<span class="pull-right text-center"><h6>4 <br>min</h6></span>
+			  		<img src="imagenes/premier.png" width="6%" class="pull-left plus" alt="">
+			  		<h6>Premier<small><br>High-end 4-seats</small></h6>
+			  	</a>
+			  </li>
+			</ul>
+		</div>
+		<button class="btn btn-large btn-block btn-primary next" type="button" id="next">Set pickup</button>
+		 	
+	</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Beu2XxIG8nLJXGlSJeZpQnP21fkroYs&callback=initMap"
+    async defer></script>
+<script src="js/mapa.js"></script>
+</html>

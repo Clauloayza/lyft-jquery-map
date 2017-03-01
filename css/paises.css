@@ -1,0 +1,38 @@
+body{
+	padding-top: 30px;
+}
+.seleccion{
+    background-color:#efeff4;
+    padding: 2% 0;
+}
+.seleccion small {
+    margin-left: 5%;
+	font-size: 15px;
+}
+ul{
+    list-style: none;
+    padding-left: 2%;
+    padding-top: 6%;
+}
+.img-size {
+    width: 7%;
+}
+li p {
+    display: inline-block;
+    margin-left: 3%;
+}
+hr {
+    margin-top: 10px;
+}
+.clos:hover{
+	background: #b9b9c6 ;
+	color: #ff00bf;
+	opacity: 0.6;
+	padding: 10px 20px;
+	font-size: 17px;
+	text-decoration: none;
+}
+.search{
+	transform: translateX(70px) translateY(8px);
+    font-size: 100%;
+}
