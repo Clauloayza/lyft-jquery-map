@@ -1,3 +1,19 @@
+body{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+.container{
+	height: 100% ;
+}
+#map{
+	height: 100%;
+}
 .next{
 	background:#371b83;
 	border: none;
@@ -14,9 +30,11 @@
 	position: relative;
 	transform: translateY(-100px);
 }
-.pull-right{
-	margin-right: -15px;
+.tipoCar{
+	margin-right:20%;
+	
 }
+
 .selector{
 	margin-top: 15px;
 	margin-left: 15px;
