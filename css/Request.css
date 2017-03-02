@@ -24,12 +24,12 @@ body{
 	transform: translateY(-140px);
 }
 .box{
-	background:#ff00bf;
+	background:#ffffff;
 	border: none;
 	padding: 13px;
 	position: relative;
 	width: 100%;
-	transform: translateY(-140px);
+	transform: translateY(-190px);
 }
 
 #floating-panel {
