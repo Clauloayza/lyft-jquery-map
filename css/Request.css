@@ -1,0 +1,47 @@
+body{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+.container{
+	height: 100% ;
+}
+#map{
+	height: 100%;
+}
+
+.next{
+	background:#ff00bf;
+	border: none;
+	padding: 13px;
+	position: relative;
+	width: 100%;
+	transform: translateY(-140px);
+}
+.box{
+	background:#ff00bf;
+	border: none;
+	padding: 13px;
+	position: relative;
+	width: 100%;
+	transform: translateY(-140px);
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}

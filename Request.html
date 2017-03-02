@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/Request.css">
+</head>
+<body>
+	<div class="container">
+		<div id="floating-panel">
+			  <input id="address" type="textbox" placeholder=" Location">
+			  <input id="submit" type="button" value="Search">
+		</div>
+		<div id="map">
+	 	</div>
+		<div class="box">
+			<ul>
+			  <li>
+			  	<a href="#">
+			  	 	<img src="imagenes/lyft.png" width="14%" class="pull-left line" alt="">
+			  	 	<h6>Line<small><br>Shared 2 riders max</small></h6>
+			  	</a>
+			  </li>
+			</ul>
+		</div>
+		<button class="btn btn-large btn-block btn-primary next" type="button" id="next">Request Lyft</button>
+		 	
+	</div>
+</body>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Beu2XxIG8nLJXGlSJeZpQnP21fkroYs&callback=initMap"
+    async defer></script>
+<script src="js/Request.js"></script>
+</html>
