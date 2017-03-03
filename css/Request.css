@@ -14,6 +14,106 @@ body{
 #map{
 	height: 100%;
 }
+.next{
+	background:#ff00bf;
+	border: none;
+	padding: 13px;
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+}
+#btn-select{
+	padding: 0;
+	border-radius: 10px;
+    margin-bottom: 5px;
+}
+#select{
+	position: relative;
+	transform: translateY(-220px);
+}
+
+.myPhoto{
+    z-index:2;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 2%;
+    margin-top: 6%;
+    padding: 2px;
+    border: 1px solid #969696;
+}
+
+.logo{
+    z-index:2;
+    position: absolute;
+    margin-left: 35%;
+    padding-top: 0;
+    padding: 4px;
+    background: #d6d4d4;
+    opacity: 0.4;
+    
+}
+.top{
+    border-bottom: 1px solid #cbd8ed;
+    border: 80%;
+}
+.selectCar{
+    margin-top: 5px;
+}
+.pad{
+   border-left: 1px solid #cbd8ed;; 
+}
+.img-card{
+    margin-top: 8px;
+}
+.mastercard {
+    width: 8%;
+    display: inline;
+}
+.mastercard-text {
+    display: inline;
+}
+.select-center{
+    border-bottom: 1px solid #cbd8ed;
+}
+.lila{
+    border-radius: 100%;
+    background: #371b83;
+    color: #371b83;
+    margin-right: 8px;
+    top: 0px;
+    font-size: 8px;
+}
+.pink{
+    border-radius: 100%;
+    background: #ff00bf;
+    color: #ff00bf;
+    margin-right: 8px;
+    top: 0px;
+    font-size: 8px;
+}
+.icons{
+    transform: translateY(-8px);
+    padding: 5px;
+    border: 1px solid #676367;
+    border-radius: 100%;
+    background: #fff;
+}
+/*body{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+}
+.container{
+	height: 100% ;
+}
+#map{
+	height: 100%;
+}
 
 .next{
 	background:#ff00bf;
@@ -44,4 +144,4 @@ body{
   font-family: 'Roboto','sans-serif';
   line-height: 30px;
   padding-left: 10px;
-}
+}*/

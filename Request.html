@@ -10,27 +10,65 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/Request.css">
 </head>
-<body>
+<header>
+    <div class="container">
+        <a href=""><img class="img-responsive myPhoto pull-left" src="image/clau%20-%20copia.jpg" style="width:10%" alt=""></a>
+        <img src="imagenes/logoLyft.png" style="width:20%" class="text-center logo" alt="">
+       
+    </div>
+</header>
+<body onload="initMap()">
+
 	<div class="container">
-		<div id="floating-panel">
-			  <input id="address" type="textbox" placeholder=" Location">
-			  <input id="submit" type="button" value="Search">
-		</div>
 		<div id="map">
 	 	</div>
-		<div class="box">
-			<ul>
-			  <li>
-			  	<a href="#">
-			  	 	<img src="imagenes/lyft.png" width="14%" class="pull-left line" alt="">
-			  	 	<h6>Line<small><br>Shared 2 riders max</small></h6>
-			  	</a>
-			  </li>
-			  <li></li>
-			</ul>
-		</div>
+	 	
+		<div class="dropup" id="select">
+		<div class="container">
+	 	   <span class="glyphicon glyphicon-arrow-left pull-left icons"></span> 
+	 	   <span class="glyphicon glyphicon-send pull-right icons"></span>
+	 	</div>
+			<div class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" style="width:100%" id="btn-select">
+                <div class="container top">
+                   <div class="row">
+                       <div class="col-xs-5 col-sm-5 col-md-5 text-right">
+                           <img src="imagenes/audi_PNG1752.png" style="width:45%"  alt="" class="selectCar">
+                       </div>
+                       <div class="col-xs-7 col-sm-7 col-md-7 text-left">
+                           <h5>Lyft <small><br>Fast rides - 4 seats</small></h5>
+                       </div>
+                   </div>
+                </div>
+			    <div class="container">
+			        <div class="row select-center">
+                        <div class="col-xs-6 col-sm-6 col-md-6 text-center border-right ">
+                            <div class=" img-card">
+                                <img class="img-responsive mastercard" src="imagenes/640px-MasterCard_logo.png" alt="">
+                                <h5 class="mastercard-text">Personal
+                                <small><br>Payment</small></h5>    
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 text-center pad">
+                            <div class="">
+                                <h5>$6-12
+                                <small><br>Price estimate</small></h5>
+                            </div>
+                        </div>
+                   </div>
+			        <div class="container">
+                        <div class="pull-left">
+                             <span class="glyphicon glyphicon-stop lila"></span>2300 Harrison St
+                        </div>
+                        <br>
+                        <div class="pull-left">
+                             <span class="glyphicon glyphicon-stop pink"></span>Caltrain station
+                        </div>
+			        </div>
+			 </div>
+           </div>
 		<button class="btn btn-large btn-block btn-primary next" type="button" id="next">Request Lyft</button>
 		 	
+	</div>
 	</div>
 </body>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Beu2XxIG8nLJXGlSJeZpQnP21fkroYs&callback=initMap"
