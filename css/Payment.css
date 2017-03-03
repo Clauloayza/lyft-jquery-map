@@ -1,0 +1,22 @@
+.lyft{
+    position: absolute;
+}
+body{
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+    width: 100%;
+    
+}
+.img{
+    border-radius: 100%;
+    width: 100px;
+    height: 110px;
+    margin-top: 20%;
+    margin-left: 40%;
+    
+}
