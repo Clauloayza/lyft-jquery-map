@@ -1,5 +1,19 @@
 .lyft{
-    position: absolute;
+    
+	display: inline-block;
+	
+}
+.optionPayment{
+	margin-top: 5%;
+}
+.payment{
+	margin: 0 auto;
+	text-align: center;
+	transform: translateY(-30px);
+}
+.cabecera{
+	margin-bottom:0px;
+	border-bottom: 1px solid #eeeeee; 
 }
 body{
 	left: 0;
@@ -12,11 +26,18 @@ body{
     width: 100%;
     
 }
-.img{
-    border-radius: 100%;
-    width: 100px;
-    height: 110px;
-    margin-top: 20%;
-    margin-left: 40%;
-    
+.cuadroImg{
+	height: 230px;
+	
 }
+.conductor{
+    border-radius: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 5px;
+	border: 1px solid #adadad;
+}
+.menu{
+	margin-top: -20px;
+}
+
