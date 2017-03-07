@@ -53,12 +53,12 @@ function solicitarEstimado(){
 		url:"https://clientes.geekadvice.pe/api/estimado",
 		data:{tipo:1}
 	}).done(function(_data){
-		console.log(_data);
-		update(_data);
+		//console.log(_data);
+		//update(_data);
 	});
 };
 
 function update(_info){
-	alert(_info.destino);
-	alert(_info.estimado.min);
+	//alert(_info.destino);
+	//alert(_info.estimado.min);
 }
