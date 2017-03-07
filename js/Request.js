@@ -24,6 +24,9 @@ function initMap() {
 	document.getElementById('submit').addEventListener('click', function() {
     geocodeAddress(geocoder, map);
   });
+	
+	solicitarEstimado();
+	
 }
 
 
@@ -41,4 +44,21 @@ function geocodeAddress(geocoder, resultsMap) {
       alert('Geocode was not successful for the following reason: ' + status);
     }
   });
+}
+
+//SOLICITAR ESTIMADO
+
+function solicitarEstimado(){
+	$.ajax({
+		url:"https://clientes.geekadvice.pe/api/estimado",
+		data:{tipo:1}
+	}).done(function(_data){
+		console.log(_data);
+		update(_data);
+	});
+};
+
+function update(_info){
+	alert(_info.destino);
+	alert(_info.estimado.min);
 }
