@@ -22,7 +22,7 @@ function initMap() {
     
 	var geocoder = new google.maps.Geocoder();
 	
-
+	solicitarEstimado();
 }
 
 

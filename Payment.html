@@ -10,8 +10,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/Payment.css">
 </head>
-<header>
-   <div class="container cabecera">
+<header class="container">
+   <div class="cabecera">
        <span class="glyphicon glyphicon-option-vertical optionPayment"><img src="imagenes/Lyft_logo.svg.png" style="width:8%" alt="" class=" img-responsive lyft"></span>
     <h4 class="text-center payment">Payment</h4>
    
@@ -22,7 +22,7 @@
 <body>
     <section class="container">
        <div class="cuadroImg">
-       	   <img src="imagenes/conductor.jpg" style="width:17%" alt="" class="img-responsive conductor">
+       	   <img src="imagenes/conductor.jpg" style="width:23%" alt="" class="img-responsive conductor">
        </div>
     </section>
     <section class="container menu">
@@ -43,17 +43,26 @@
 			<button type="button" class="btn btn-default">Other</button>
 		  </div>
 		</div>
+		<br>
    <div>
-   	<form class="form-inline">
-	  <div class="form-group">
-	    <label class="sr-only" for="exampleInputAmount" placeholder=""> </label>
-	    <div class="input-group">
-	      <input type="text" class="form-control" id="exampleInputAmount" class="glyphicon glyphicon-credit-card"  placeholder="Payment                                                               *1234" >
-	      <div class="input-group-addon"> <span class="glyphicon glyphicon-menu-right"></span></div>
-	    </div>
-	  </div>
-	</form>
+    <div class="row container">
+               <br>
+               <div class="input-group">
+                 <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+                 <input type="text" placeholder=" payment                    *1234" class="form-control" aria-label="Amount (to the nearest dollar)" onKeyPress="return soloNumeros(event)">
+                 <span class="input-group-addon"><i class="glyphicon glyphicon-menu-right"></i></span>
+               </div>  
+    </div>
+	 <div class="text-center" >
+           <h3 id="precio">$ 9.00</h3>  
+       </div>
    </div>
-    </section>
+</section>
+
 </body>
+<footer>
+	<div id="button">
+		<button class="btn btn-large btn-block btn-primary text-center">Next</button>
+	</div>
+</footer>
 </html>
