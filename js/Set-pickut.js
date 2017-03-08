@@ -22,7 +22,25 @@ function initMap() {
     
 	var geocoder = new google.maps.Geocoder();
 	
-	document.getElementById('submit').addEventListener('click', function() {
-    geocodeAddress(geocoder, map);
-  });
+
+}
+
+
+//SOLICITAR ESTIMADO
+function solicitarEstimado(){
+	$.ajax({
+		url:"https://clientes.geekadvice.pe/api/estimado",
+		data:{tipo:4}
+	}).done(function(_data){
+		//console.log(_data);
+        update(_data);
+	});
+};
+
+function update(_info){
+	
+    //alert(_info.origen);
+   $('#origen').html(_info.origen);
+	
+	
 }
