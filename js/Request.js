@@ -51,14 +51,19 @@ function geocodeAddress(geocoder, resultsMap) {
 function solicitarEstimado(){
 	$.ajax({
 		url:"https://clientes.geekadvice.pe/api/estimado",
-		data:{tipo:1}
+		data:{tipo:4}
 	}).done(function(_data){
-		//console.log(_data);
-		//update(_data);
+		console.log(_data);
+        update(_data);
 	});
 };
 
 function update(_info){
 	//alert(_info.destino);
+    $('#destino').html(_info.destino);
+    //alert(_info.origen);
+    $('#origen').html(_info.origen);
 	//alert(_info.estimado.min);
+	$('#precio').html('<h5 id="precio">'+_info.estimado.moneda+_info.estimado.min+'-'+_info.estimado.max+'</h5>');
+	
 }
