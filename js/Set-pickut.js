@@ -38,9 +38,7 @@ function solicitarEstimado(){
 };
 
 function update(_info){
-	
-    //alert(_info.origen);
+	//alert(_info.origen)origen;
    $('#origen').html(_info.origen);
-	
-	
+		
 }
