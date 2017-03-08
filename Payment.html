@@ -19,10 +19,10 @@
     
     
 </header>
-<body>
+<body onload="init()">
     <section class="container">
        <div class="cuadroImg">
-       	   <img src="imagenes/conductor.jpg" style="width:23%" alt="" class="img-responsive conductor">
+       	   <img src="imagenes/conductor.jpg" style="width:23%" alt="" class="img-responsive conductor" id="pic">
        </div>
     </section>
     <section class="container menu">
@@ -57,12 +57,14 @@
            <h3 id="precio">$ 9.00</h3>  
        </div>
    </div>
+  
 </section>
-
-</body>
-<footer>
-	<div id="button">
+<section>
+	 <div id="button">
 		<button class="btn btn-large btn-block btn-primary text-center">Next</button>
 	</div>
-</footer>
+</section>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/Payment.js"></script>
 </html>
