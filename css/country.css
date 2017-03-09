@@ -4,11 +4,13 @@
 }
 .next{
     width: 100%;
-    padding: 2%;
+    padding: 4%;
     color: #fff;
     background: #ff00bf;
     margin-top: 10%;
 	font-size: 18px;
+	bottom: 0;
+	position: absolute;
 }
 a{
     text-decoration: none;
@@ -44,5 +46,5 @@ a{
     transform: translateX(15px);
 }
 #number {
-    padding-left: 45px;
+    padding-left: 50px;
 }

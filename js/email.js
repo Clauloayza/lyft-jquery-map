@@ -25,7 +25,7 @@ function onButtonClick() {
     } else {
         
         mensajeCheck.html("");
-        location.href = 'mapa.html';
+        location.href = 'Set-pickup.html';
     }
 }
 
