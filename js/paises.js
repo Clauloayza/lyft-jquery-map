@@ -5,7 +5,7 @@ function init(){
     
     listaPaises.each(function(){
         var src =$(this).find('img').attr('src');
-        console.log(sa<s);
+        //console.log();
     })
     
     
@@ -31,7 +31,7 @@ function createList() {
 function onCountryClick(evt) {
     localStorage.setItem("country_select",evt.currentTarget.id);
     
-    location.href="pais.html";
+    location.href="country.html";
 }
 
 
