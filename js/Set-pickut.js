@@ -23,6 +23,7 @@ function initMap() {
 	var geocoder = new google.maps.Geocoder();
 	
 	solicitarEstimado();
+	eventoClick();
 }
 
 
@@ -41,4 +42,22 @@ function update(_info){
 	//alert(_info.origen)origen;
    $('#origen').html(_info.origen);
 		
+}
+
+//$(document).ready(init);
+
+function eventoClick(){
+	var lista = $('li');
+	$.each(lista, function(){
+		$(this).on('click', onClickLista)
+	});
+	
+	
+}
+
+function onClickLista(evt){
+	var image = $(event.currentTarget).find('#car').attr('src');
+	localStorage.setItem('src',image);
+	var nuevo = $(event.currentTarget).find('#model').text();
+	localStorage.setItem('text',nuevo);
 }
